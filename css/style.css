@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,700;1,400&family=Raleway:wght@400;500;700&display=swap');
+@import url("components/navbar.css");
+@import url("components/button.css");
+@import url("components/header.css");
+@import url("components/section.css");
+@import url("components/card.css");
+@import url("components/avatar.css");
+@import url("components/footer.css");
+
+:root {
+  --white-origami: #FFFFFF;
+  --dark-blue-origami: #2B2D42;
+  --orange-origami: #F79647;
+  --green-origami: #92d050;
+  --light-blue-origami: #4aacc6;
+  --transparent-orange-origami: rgba(247, 150, 71, 0.1);
+  --transparent-green-origami: rgba(146, 208, 80, 0.1);
+  --transparent-light-blue-origami: rgba(74, 172, 198, 0.1);
+  --bs-font-sans-serif: 'Cabin', sans-serif;
+  --bs-body-color: #2B2D42;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.text-blue {
+  color: var(--light-blue-origami);
+}
+
+.text-orange {
+  color: var(--orange-origami);
+}
+
+.text-green {
+  color: var(--green-origami);
+}

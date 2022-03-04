@@ -1,0 +1,58 @@
+#navbar-origami {
+  justify-content: space-between;
+  background: white;
+  box-shadow: 0px 2px 14px -2px rgba(0,0,0,0.1);
+}
+
+#navbar-origami .navbar-nav {
+  align-items: center;
+}
+
+#navbar-origami .nav-link {
+  text-transform: uppercase;
+  color: var(--dark-blue-origami);
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  transition: color 0.2s scale 0.2s ease;
+}
+
+#navbar-origami .nav-link:hover {
+  color: var(--light-blue-origami);
+  transition: color 0.2s scale 0.2s ease;
+}
+
+#navbar-origami .btn-secondary-origami {
+   color: var(--light-blue-origami);
+   padding: 10px 25px;
+   margin-left: 1.5rem;
+   width: fit-content;
+}
+
+@media (max-width: 768px) {
+  #navbar-origami .btn-secondary-origami {
+     margin-left: 0;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 991px) {
+  #navbar-origami .nav-link {
+     font-size: 14px;
+  }
+
+  #navbar-origami .nav-link {
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+  }
+
+  #navbar-origami .btn-secondary-origami {
+    margin-left: 0.8rem;
+  }
+}
+
+#navbar-origami .navbar-collapse {
+  flex-grow: 0;
+}
+
+#navbar-origami .navbar-brand img {
+  width: 100px;
+}

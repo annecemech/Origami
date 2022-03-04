@@ -1,0 +1,71 @@
+
+.section-origami {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  position: relative;
+}
+
+.section-origami .anchor {
+  position:absolute;
+  top:-83px;
+}
+
+.section-origami .col-md, .col-md-3, .col-md-9 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+.section-origami .heading {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  padding: 1.5rem 0;;
+}
+
+.section-origami .heading h2 {
+text-transform: uppercase;
+color: var(--dark-blue-origami);
+}
+
+.section-origami .heading img {
+  width: 2.5rem;
+  height: fit-content;
+}
+
+.section-origami .heading img:last-of-type {
+  transform: scaleX(-1);
+}
+
+.section-origami.bg-green {
+  background-color: var(--transparent-green-origami);
+}
+
+.section-origami.bg-blue {
+  background-color: var(--transparent-light-blue-origami);
+}
+
+.section-origami.bg-orange {
+  background-color: var(--transparent-orange-origami);
+}
+
+.section-origami .text-blue {
+  font-size: large;
+  padding: 2rem 0;
+}
+
+#public-origami {
+  display: flex;
+  align-items: center;
+}
+
+#public-origami i {
+  color: var(--orange-origami);
+  font-size: 4rem;;
+}
+
+#public-origami > div {
+  padding: 1rem;
+  flex-grow: 1;
+}

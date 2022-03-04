@@ -1,0 +1,169 @@
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card-origami {
+  background-color: var(--white-origami);
+  border-radius: 4px;
+  padding: 30px 40px;
+  box-shadow: 0px 2px 14px 2px rgba(0,0,0,0.1);
+}
+
+.card-quotation p {
+  font-style: italic;
+}
+
+.card-quotation .author {
+  color: var(--green-origami);
+  font-weight: 500;
+  text-align: right;
+}
+
+.card-formation {
+  flex-basis: calc(50% - 20px);
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-formation .card-title {
+  color: var(--orange-origami);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  text-align: center;
+  font-size: large;
+}
+
+.card-formation .card-infos {
+  display: flex;
+  gap: 20px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.card-formation .card-infos i {
+  color: var(--orange-origami);
+  margin-right: 0.5rem;;
+}
+
+.card-infos-pratiques {
+  flex-basis: calc(100% / 3 - 20px);
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-infos-pratiques i {
+  font-size: 2.8rem;
+  margin-bottom: 0.8rem;
+}
+
+.card-infos-pratiques h5 {
+  color: var(--light-blue-origami);
+  text-align: center;
+  text-transform: initial;
+  font-weight: 500;
+}
+
+.card-infos-pratiques .btn-primary-origami {
+  margin-top: 0.8rem;
+}
+
+.card-infos-pratiques img {
+  width: 50%;
+}
+
+@media (max-width: 991px) {
+  .card-infos-pratiques img {
+  width: 100%;
+}
+}
+
+.card-infos-pratiques .card-items {
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card-infos-pratiques .card-items > div {
+  flex-basis: calc(100% / 2 - 20px);
+  min-width: 200px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.card-contact {
+  background-color: var(--white-origami);
+  border-radius: 4px;
+  box-shadow: 0px 2px 14px 2px rgba(0,0,0,0.1);
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 780px;
+  margin: auto;
+}
+
+.card-contact .card-title {
+  flex-basis: calc(100%/3);
+  flex-grow: 1;
+  padding: 30px 40px;
+  background-color: var(--green-origami);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  color: var(--white-origami);
+}
+
+.card-contact .card-title span {
+  font-size: larger;
+}
+
+.card-contact .card-address {
+  flex-basis: calc(100%/3*2);
+  flex-grow: 1;
+  padding: 30px 40px;
+  text-align: center;
+}
+
+.card-address > span:first-of-type {
+  margin-bottom: 1rem;
+}
+
+footer .card-address > span:first-of-type {
+  margin-bottom: 0;
+}
+
+.card-address > span {
+  display: block;
+}
+
+.card-address a {
+  text-decoration: none;
+  color: var(--blue-origami)
+}
+
+.card-address > div {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0;
+}
+
+.card-address .icon-box {
+  display: inline-block;
+  width: 1.5rem;
+}
+
+.card-contact .card-address .icon-box i{
+  color: var(--green-origami);
+}

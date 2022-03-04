@@ -1,0 +1,35 @@
+.btn-primary-origami {
+  background-color: var(--light-blue-origami);
+  border-radius: 4px;
+  padding: 10px 20px;
+  color: var(--white-origami);
+  box-shadow: 0px 2px 14px 2px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: block;
+  width: fit-content;
+}
+
+.btn-primary-origami:hover {
+  transform: scale(1.1);
+  transition: transform 0.2s ease;
+  color: var(--white-origami);
+}
+
+.btn-secondary-origami {
+  background-color: var(--white-origami);
+  border-radius: 4px;
+  padding: 10px 20px;
+  color: var(--light-blue-origami);
+  box-shadow: 0px 2px 14px 2px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+  text-transform: uppercase;
+    font-weight: 500;
+}
+
+.btn-secondary-origami:hover {
+  transform: scale(1.1);
+  transition: transform 0.2s ease;
+  color: var(--light-blue-origami);
+}
