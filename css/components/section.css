@@ -27,11 +27,12 @@
 .section-origami .heading h2 {
 text-transform: uppercase;
 color: var(--dark-blue-origami);
+text-align: center;
 }
 
 .section-origami .heading img {
   width: 2.5rem;
-  height: fit-content;
+  height: 2.8rem;
 }
 
 .section-origami .heading img:last-of-type {
