@@ -32,3 +32,7 @@ footer a:hover {
   color: var(--orange-origami);
   transition: color 0.2s ease;
 }
+
+.grow-1 {
+  flex-grow: 1;
+}

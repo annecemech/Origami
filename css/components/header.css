@@ -16,6 +16,8 @@
   font-size: 1.5rem;
   color: var(--white-origami);
   text-shadow: 0px 2px 14px rgba(0,0,0,0.1);
+  text-transform: none;
+  font-weight: 500;
 }
 
 #header .buttons-container {
